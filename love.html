@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <title>M o z z k a</title>
+        <link rel="stylesheet" href="love_style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+        </head>
+        <body>
+        <div class="profile-container">
+        <div class="profile-pic">
+            <img src="all/1.jpg" alt="Profile Picture" class="img" />
+        </div>
+        <div class="info-container">
+            <div class="info-item">
+                <i class="fas fa-user"></i>
+                <span>Zai Bu Zai</span>
+                </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Hebei, China</span>
+                </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-al"></i>
+                <span>what the fuc.....</span>
+                </div>
+            </div>
+            <div class="button-container">
+                <a class="button" href="https://v.douyin.com/iDxSCJVb/" target="_blank">
+                    <i class="fab fa-tiktok"></i>Douyin
+                </a>
+                <a class="button" href="https://weibo.com/u/6064798537" target="_blank">
+                    <i class="fas fa-comments"></i>Weibo
+                </a>
+            </div>
+            </div>
+            <audio id="myAudio" autoplay loop>
+            <source src="music.mp3" type="audio/mpeg" />
+            Your browser does not support the audio tag.
+            </audio>
+            <script>
+            function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.muted = false;
+            audio.play();
+            }
+            document.body.addEventListener("click", playAudio);
+            document.body.addEventListener("touchstart", playAudio);
+
+            function disableScroll() {
+            document.body.style.overflow = 'hidden'; // Mencegah scroll
+            }
+            function enableScroll() {
+            document.body.style.overflow = 'auto'; // Mengizinkan scroll
+            }
+            disableScroll();
+        </script>
+    </body>
+</html>

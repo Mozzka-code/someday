@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="all/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="all/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="all/favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <title>M o z z k a</title>
+    <link rel="stylesheet" href="index_style.css">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="profile-pic">
+        <img src="all/profile.jpg" alt="Profile Picture" class="img" />
+      </div>
+      <div class="info-container">
+        <div class="info-item">
+          <i class="fas fa-user"></i>
+          <span>Mozzka</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-briefcase"></i>
+          <span>Desainer Web</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Kediri, Jawa Timur</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-question"></i>
+          <span>Karena masa depan sungguh ada,
+            dan harapanmu tidak akan hilang.</span>
+        </div>
+      </div>
+      <div class="button-container">
+        <a class="button" href="sosmed.html" target="_blank">
+          <i class="fas fa-mobile-alt"></i>Media
+        </a>
+        <a class="button" href="chat.html" target="_blank">
+          <i class="fas fa-comments"></i>Chat
+        </a>
+        <a class="button" href="music.html" target="_blank">
+          <i class="fas fa-headphones-alt"></i>Music
+        </a>
+        <a class="button" href="love.html" target="_blank">
+          <i class="fas fa-heart"></i>
+        </a>
+      </div>
+    </div>
+    <audio id="myAudio" autoplay loop>
+      <source src="all/music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+    <script>
+      function playAudio() {
+        var audio = document.getElementById("myAudio");
+        audio.muted = false;
+        audio.play();
+      }
+      document.body.addEventListener("click", playAudio);
+      document.body.addEventListener("touchstart", playAudio);
+
+      function disableScroll() {
+            document.body.style.overflow = 'hidden';
+            }
+            function enableScroll() {
+            document.body.style.overflow = 'auto';
+            }
+            disableScroll();
+    </script>
+  </body>
+</html>
