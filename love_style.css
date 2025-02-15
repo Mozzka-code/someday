@@ -15,12 +15,12 @@ body {
   }
   @media (max-width: 720px) {
     body {
-      background-image: url("all/background-vertical.jpg");
+      background-image: url("all/background-vertikal.jpg");
     }
   }
   @media (min-width: 721px) and (max-width: 1080px) {
     body {
-      background-image: url("all/background-vertical.jpg");
+      background-image: url("all/background-vertikal.jpg");
     }
   }
   .profile-container {
