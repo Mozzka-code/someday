@@ -1,6 +1,6 @@
 body {
     font-family: "Inter", sans-serif;
-    background-image: url("all/3.jpg");
+    background-image: url("all/background-horizontal.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,12 +15,12 @@ body {
   }
   @media (max-width: 720px) {
     body {
-      background-image: url("all/2.jpg");
+      background-image: url("all/background-vertical.jpg");
     }
   }
   @media (min-width: 721px) and (max-width: 1080px) {
     body {
-      background-image: url("all/2.jpg");
+      background-image: url("all/background-vertical.jpg");
     }
   }
   .profile-container {
