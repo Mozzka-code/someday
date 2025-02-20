@@ -1,11 +1,25 @@
 <html>
   <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="all/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="all/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="all/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="all/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="all/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="all/favicon-16x16.png"
+    />
     <link rel="manifest" href="site.webmanifest" />
     <title>M o z z k a</title>
-    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="index_style.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
@@ -53,22 +67,6 @@
       <source src="all/music.mp3" type="audio/mpeg" />
       Your browser does not support the audio tag.
     </audio>
-    <script>
-      function playAudio() {
-        var audio = document.getElementById("myAudio");
-        audio.muted = false;
-        audio.play();
-      }
-      document.body.addEventListener("click", playAudio);
-      document.body.addEventListener("touchstart", playAudio);
-
-      function disableScroll() {
-            document.body.style.overflow = 'hidden';
-            }
-            function enableScroll() {
-            document.body.style.overflow = 'auto';
-            }
-            disableScroll();
-    </script>
+    <script src="index_script.js"></script>
   </body>
 </html>
